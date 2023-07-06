@@ -66,7 +66,7 @@ br.addheaders = [('User-agent', 'Firefox')]
 
 #Checker function
 def checker():
-    with open("combo.txt", "r") as filestream:
+    with open("/storage/emulated/0/Checkers/Net Checker/combo.txt", "r") as filestream:
         for line in filestream:
             try:
                 br.open('https://www.netflix.com/fr/login')
